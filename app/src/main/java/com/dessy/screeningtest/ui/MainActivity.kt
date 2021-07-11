@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun isPalindrome() : Boolean {
         var palindrome = false
-        var nama = binding.etName.text.toString()
+        var nama = binding.etName.text.toString().lowercase()
         var length = nama.length
         var half = (length / 2) + 1
 
